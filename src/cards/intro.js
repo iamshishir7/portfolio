@@ -33,10 +33,10 @@ function Intro() {
          
 
           <div className='socials'>
-          <AiOutlineLinkedin size={33} color='#0072b1'/>
-          <AiOutlineFacebook size={33} color='#3b5998'/>
-          <FiTwitter size={33} color='#00acee'/>
-          <AiOutlineInstagram size={33} color='#bc2a8d'/>
+          <a href='https://www.linkedin.com/in/iamshishir7/' target="_blank"><AiOutlineLinkedin size={33} color='#0072b1'/></a>
+          <a href='https://www.facebook.com/iamshishir7/' target="_blank"><AiOutlineFacebook size={33} color='#3b5998'/></a>
+          <a href='https://www.twitter.com/iamshishir7/' target="_blank"><FiTwitter size={33} color='#00acee'/></a>
+          <a href='https://www.instagram.com/iamshishir7/' target="_blank"><AiOutlineInstagram size={33} color='#bc2a8d'/></a>
           </div>
 
           <div className='coreskillstitle'>Core Skills</div>
