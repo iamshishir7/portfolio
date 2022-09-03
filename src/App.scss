@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin:0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+
+
+
+.header{
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  padding: 4rem 0;
+  font-size: 1.2rem;
+  gap: 3rem;
+  margin-top: 2rem;
+  
+  .leftcontent {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+    .logo{
+      font-size: 1rem;
+      font-weight: 500;
+
+      span{
+        color: #24B3A8;
+        font-size: 1.8rem;
+        font-weight: 800;
+      }
+    }
+
+    
+  }
+
+  .rightcontent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    
+    .projectlabel{
+      display: flex;
+      justify-content: center;
+      cursor: pointer;
+    }
+
+    .contactlabel{
+      display: flex;
+      justify-content: center;
+      cursor: pointer;
+      
+    }
+
+    a{
+      color: #000000;
+      text-decoration: none;
+    }
+    a:hover{
+      color:#1D8D84
+    }
+  }
+}
+
+.slider{
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  cursor:grab;
+  overflow:hidden;
+  
+  
+  .inner-slider{
+    display:flex;
+    
+  }
+
+  .content{
+    min-width:60vw;
+    background-color: #F8F8FF;
+    margin: 2rem 4rem 2rem 0rem; 
+    border-radius: 1rem;
+    border: 1.5px solid rgba(0,0,0,0.1);
+  }
+
+
+
+}
+
+.projects {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  
+  border-radius: 1rem;
+  padding: 5rem;;
+  margin-bottom: 2rem;
+  
+  h1{
+    color: #24B3A8;
+    font-weight: 800;
+  }
+
+  .sub-head{
+    margin-top:1rem;
+    font-size: 1.2rem;
+  }
+
+  .forref{
+    z-index: 1000;
+    position:relative;
+    top:50vh;
+    height: 50px;
+    background-color: #000000;
+  }
+
+  .project-container{
+    margin-top: 2rem;
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:1rem;
+    
+    .bg-project{
+      background-color: #F8F8FF;
+      padding: 2rem;
+      border-radius: 1rem;
+      border: 1.5px solid rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #1D8D84;
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom:1rem;
+    }
+
+    .project-intro{
+      color:#424242;
+      font-size:1.1rem;
+    }
+  }
+  
+}
+
+.about{
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #F8F8FF;
+  
+  border-radius: 1rem;
+  padding: 5rem;
+  border: 1.5px solid rgba(0,0,0,0.1);
+
+  img{
+    width: 40vw;
+  }
+
+  h1{
+    color: #24B3A8;
+    font-weight: 800;
+  }
+
+  .subhead{
+    margin: 3rem 0rem 2rem 0rem;
+    font-weight: 800;
+    font-size: 2rem;
+    color: #156760;
+  }
+  .about-intro{
+    margin-top: 3rem;
+    font-weight: 800;
+    font-size: 2rem;
+    color: #156760;
+  }
+
+  .about-para{
+    margin-top: 3rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+    max-width: 1000px;
+
+   
+
+    a{
+      color: #1D8D84;
+      text-decoration: none;
+    }
+
+    a:hover{
+      color: #24B3A8;
+      transition: 0.3s;
+      cursor: pointer;
+      
+    }
+  }
+
+  
+}
+
+.footer{
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #F8F8FF;
+  
+  border-radius: 1rem;
+  padding: 2rem;
+  border: 1.5px solid rgba(0,0,0,0.1);
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+
+  .footer-content{
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+}
+
+
+
+@media (max-width: 1400px) {
+
+  .header{
+    max-width: 95%;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    .rightcontent{
+      display: none;
+    }
+  }
+    
+  .slider{
+    max-width: 95%;
+    
+    .content{
+      min-width: 80vw;
+      margin-right: 1rem;
+    }
+
+  }
+
+  .projects{
+    max-width: 95%;
+    padding: 1rem;
+
+    .project-container{
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .about{
+    max-width: 95%;
+    padding: 1rem;
+
+    img{
+      width:100%
+    }
+
+    .about-para{
+      font-size: 1rem;
+    }
+  }
+
+  .footer{
+    max-width: 95%;
+  }
+
+}

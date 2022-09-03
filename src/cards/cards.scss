@@ -1,0 +1,286 @@
+.intro {
+    min-height: 60vh;
+    padding: 5rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .hi{
+        font-size: 2rem;
+        font-weight: 600 ;
+    
+    }
+
+    .fname{
+        font-weight: 600 ;
+        font-size: 2rem;
+        span{
+            color: #24B3A8;
+            font-weight: 800;
+        }
+    }
+
+    .caption{
+        font-size: 1.3rem;
+        
+        span{
+          color:#156760;
+          font-weight: 700;
+        }
+    }
+
+    .socials{
+        margin-top: 1rem;
+        max-width: 300px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        
+    }
+
+    .coreskillstitle{
+        font-size: 1.5rem;
+        color:#24B3A8;
+        font-weight: 800;
+        margin-top: 5rem;
+    }
+    .coreskills{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        max-width: 600px;
+        margin-top: 1rem;
+        gap:2rem;
+
+        font-size: 1rem;
+        font-weight: 700;
+
+        .nodejs{
+            span{
+                margin-left:2rem;
+            }
+        }
+
+        .JS{
+            span{
+                margin-left:0.2rem;
+            }
+        }
+
+        .Csharp{
+            margin-left:1rem;
+            span{
+                margin-left:0.5rem;
+            }
+        }
+
+        .React{
+            span{
+                margin-left:0.5rem;
+            }
+        }
+    }
+
+    img{
+      border-radius: 100%;
+    }
+
+}
+
+.contact {
+    max-width: 90%;
+    margin-left:auto;
+    margin-right:auto;
+
+    div.form {
+        background-color: #F8F8FF;
+        margin-top:4rem
+      }
+
+      h1{
+        color: #24B3A8;
+        font-weight: 800;
+      }
+
+      form {
+        margin-top:2rem;
+        caret-color: #156760;
+      }
+      .contact-wrapper {
+        margin: auto 0;
+      }
+      
+      .submit-btn {
+        float: left;
+      }
+      .reset-btn {
+        float: right;
+      }
+      
+      
+      
+      .highlight-text {
+        color: #24B3A8;
+      }
+      
+      .hightlight-contact-info {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 1.5;
+      }
+      
+      .highlight-text-grey {
+        font-weight: 500;
+      }
+      
+      .email-info {
+          margin-top: 20px;
+      }
+      
+    
+      
+      .required-input {
+        color: black;
+      }
+      @media (min-width: 600px) {
+        .contain {
+          padding: 0;
+        }
+      }
+      
+      h3,
+      ul {
+        margin: 0;
+      }
+      
+      h3 {
+        margin-bottom: 1rem;
+      }
+      
+      .form-input:focus,
+      textarea:focus{
+        outline: 2px solid #24B3A8;
+      }
+      
+      .form-input,
+      textarea {
+        width: 100%;
+        border: 1px solid #156760;
+        border-radius: 5px;
+      }
+
+      .form-input:focus,textarea:focus{
+        border: 0px;
+      }
+      
+      .wrapper > * {
+        padding: 1em;
+      }
+      @media (min-width: 700px) {
+        .wrapper {
+          display: grid;
+          grid-template-columns: 2fr 1fr;
+        }
+        .wrapper > * {
+          padding: 2em 2em;
+        }
+
+        
+      }
+      
+      ul {
+        margin-top:2rem;
+        list-style: none;
+        padding: 0;
+      }
+      
+      .contacts {
+        color: #212d31;
+      }
+      
+      .form {
+        background: #fff;
+      }
+      
+      form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+      }
+      form label {
+        display: block;
+      }
+      form p {
+        margin: 0;
+      }
+      
+      .full-width {
+        grid-column: 1 / 3;
+      }
+      
+      
+      .submit-btn,
+      .form-input,
+      textarea {
+        padding: 1em;
+      }
+      
+       .submit-btn {
+        margin-top: 1rem;
+    border: 2px solid #24B3A8;
+    border-radius: 0.5rem;
+    padding: 0.6em 2.3em;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #24B3A8;
+    font-weight: 700;
+    background-color: #F8F8FF;
+    background-image: linear-gradient(45deg, transparent 50%, #24B3A8 50%);
+    background-position: 25%;
+    background-size: 400%;
+    -webkit-transition: background 500ms ease-in-out, color 500ms ease-in-out;
+    transition: background 500ms ease-in-out, color 500ms ease-in-out;
+      }
+      .submit-btn:hover, .submit-btn:focus{
+        color: #ffffff;
+    background-position: 100%;
+      }
+      .error {
+        color: #ec1c24;
+      }
+}
+
+@media screen and (max-width: 1400px) {
+  .intro{
+    padding: 1rem;
+    .profilepic{
+      display: none;
+    }
+
+    .coreskillstitle{
+      margin-top: 1rem;
+    }
+  }
+
+  .contact{
+
+    input,textarea{
+      font-size: 1.1rem;
+      
+    }
+    input::placeholder, textarea::placeholder{
+      font-size: 1.1rem;
+    }
+
+    .contacts{
+      display: none;
+    }
+
+    input[type='submit']{
+margin: 1rem 0rem;
+    }
+
+    div.form{
+      margin-top:2rem;
+    }
+  }
+}
