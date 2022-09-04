@@ -254,10 +254,21 @@
     .content{
       min-width: 80vw;
       margin-right: 1rem;
+      border: 1.5px solid rgba(0,0,0,0.05);
     }
+
+    
 
   }
 
+  .dragtext{
+    max-width: 95%;
+    font-size: 1.1rem;
+
+    p{
+      margin: none;
+    }
+  }
   .projects{
     max-width: 95%;
     padding: 1rem;
