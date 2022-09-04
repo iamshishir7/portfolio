@@ -67,12 +67,25 @@
   }
 }
 
+.dragtext{
+  font-weight: 800;
+  font-size: 1.5rem;
+  max-width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  p{
+    text-align: right;
+    color: #1D8D84;
+  }
+}
+
 .slider{
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
   cursor:grab;
   overflow:hidden;
+
   
   
   .inner-slider{
