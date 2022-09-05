@@ -41,9 +41,10 @@ function Projects() {
           
           <div className='project1 bg-project'>
             
-            <img src='/assets/musicplayer.jpg' width={300}/>
-            <h2 >Music Player</h2>
+            <img src='/assets/musicplayer.jpg'/>
+            
             <div className='project-intro'>
+            <h2 >Music Player</h2>
             What if you tried making a music player that doesn't just let you play tracks, but also makes personalized mixes like Spotify? In addition to this app also have unique features like for example, making a "bangers" mix that compiles the tracks that you've cranked up your volume for.
             </div>
           </div>
@@ -52,9 +53,10 @@ function Projects() {
           
           <div className='project2 bg-project'>
           
-          <img src='/assets/stocktracker.png' width={300}/>
-          <h2>Stock Tracker</h2>
+          <img src='/assets/stocktracker.png'/>
+          
             <div className='project-intro'>
+            <h2>Stock Tracker</h2>
             This is one of the simple projects on this list, yet one that is very versatile. Its a Web App that visualizes live data fetched from an API. This is, for example, a financial data API where you would visualize the most traded stocks by volume.
             </div>
           </div>
@@ -63,9 +65,10 @@ function Projects() {
           
           <motion.div className='project3 bg-project'>
           
-          <img src='/assets/blog.jpg' width={300}/>
-          <h2>Personal Blog</h2>
+          <img src='/assets/blog.jpg'/>
+          
             <div className='project-intro'>
+            <h2>Personal Blog</h2>
             Blogs are much appreciated across the internet. Blogs can be very valuable for businesses. Personal blogs have been made like a million times by Web Devs, but user-generated blogs like dev.to that have a built-in markdown editor, review algorithm and everything else needed to have a self-sustaining blog is something not many have made, yet is something that is a lot more valuable to businesses that want their blog to grow organically and bring in traffic. This is exactly what my project is.
             </div>
           </motion.div>
@@ -74,9 +77,10 @@ function Projects() {
          
           <div className='project4 bg-project'>
           
-          <img src='/assets/newsletter.png' width={300}/>
-          <h2>News from Shishir</h2>
+          <img src='/assets/newsletter.png'/>
+          
             <div className='project-intro'>
+            <h2>News from Shishir</h2>
             Just like with product landing pages, making great newsletter landing pages is a valuable Web Dev skill. This newsletter application has a fantastic landing page in order to get those required clicks.
             </div>
           </div>
