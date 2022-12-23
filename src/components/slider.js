@@ -26,7 +26,7 @@ function Slider() {
     <div className='dragtext'><motion.p 
     transition={bounceTransition}
     animate={{x:['0%','-2%']}}
-    >DRAG TO REVEAL<HiArrowCircleRight/></motion.p> </div>
+    >DRAG BELOW TO REVEAL<HiArrowCircleRight/></motion.p> </div>
     <motion.div ref={slider} whileTap={{cursor:"grabbing"}} className='slider' initial={{x: '100vw'}} animate={{x:0}} transition={{type:'easeIn', duration:  0.5}}>
       <motion.div drag="x" dragConstraints={{ right:0, left: -width }} className='inner-slider'>
       <div className='content'>

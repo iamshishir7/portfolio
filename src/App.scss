@@ -247,6 +247,17 @@
   }
 }
 
+.tweet {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+  .tweetw{
+    min-width: 100%;
+    background-color: #24B3A8;
+  }
+}
+
 
 
 @media (max-width: 1400px) {
